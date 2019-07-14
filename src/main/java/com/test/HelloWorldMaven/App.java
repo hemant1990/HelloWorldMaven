@@ -10,7 +10,7 @@ public class App
     {
         System.out.println( "Hello World!" );
         App a=new App();
-        a.fun1();
+        fun1();
         System.out.println( "From sacred games" );
     }
     
