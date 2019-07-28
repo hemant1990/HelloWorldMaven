@@ -17,9 +17,9 @@
   
 <distributionManagement>
        <repository>
-         <id>mvnrepo</id>
+         <id>deployment</id>
          <name>mvnrepo</name>
-         <url>http://35.154.247.96:8081/#admin/repository/repositories:mvnrepo</url>
+	 <url> http://35.154.247.96:8081/repository/mvnrepo/</url>
        </repository>
    </distributionManagement>
 
