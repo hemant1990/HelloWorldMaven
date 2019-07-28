@@ -4,7 +4,7 @@
 
   <groupId>com.test</groupId>
   <artifactId>HelloWorldMaven</artifactId>
-  <version>0.0.12-SNAPSHOT</version>
+  <version>1.0.0-SNAPSHOT</version>
   <packaging>jar</packaging>
   
   
@@ -17,9 +17,9 @@
   
 <distributionManagement>
        <repository>
-         <id>internal.repo</id>
-         <name>Internal repo</name>
-         <url>file:///var/lib/jenkins/myarticats/</url>
+         <id>mvnrepo</id>
+         <name>mvnrepo</name>
+         <url>http://35.154.247.96:8081/#admin/repository/repositories:mvnrepo</url>
        </repository>
    </distributionManagement>
 
@@ -32,3 +32,4 @@
     </dependency>
   </dependencies>
 </project>
+
